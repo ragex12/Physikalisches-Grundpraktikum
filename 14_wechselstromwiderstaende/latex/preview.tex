@@ -1,0 +1,23 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphics}
+\usepackage{tikz}
+\usepackage{gnuplottex}
+\usepackage{color}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\pgfrealjobname{preview}
+
+\newcommand{\inputTikZ}[1]{%
+    \resizebox{\textwidth}{!}{\input{#1.pgf}}%
+  }
+
+\begin{document}
+\begin{figure}
+	\begin{centering}
+		\inputTikZ{A5}
+	\end{centering}
+\end{figure}
+\end{document}
