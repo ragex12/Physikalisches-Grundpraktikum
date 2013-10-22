@@ -1,0 +1,47 @@
+\section{Theorie}
+\subsection{Das Elektrische Feld und die Coulomb Kraft}
+%
+Analog zur Gravitationkraft zwischen Massen existieren auch zwischen elektrischen Ladungen Kräfte. Nach dem Coulombschen Gesetz werden diese durch die Formel
+%
+\begin{align}
+	\vec{F} = \frac{1}{4\pi\varepsilon_0\varepsilon_r} \cdot \frac{Q_1 Q_2}{\vec{r}^2}\hat r
+\end{align}
+%
+beschrieben. <erklärung der parameter>
+
+%
+\subsection{Plattenkondensator}
+%
+Ein Plattenkondensator besteht aus zwei gegenüberliegenden Metallplatten mit Abstand $d$. 
+Wird nun eine Spannung $U$ angelegt, erfolgt eine Ladungstrennung, welche ein elektrisches Feld zwischen den Platten erzeugt. Durch den Satz von Gauß ergibt sich für die Ladung $Q$ die Formel
+%
+\begin{align}
+	Q = C \cdot U\text{,}
+\end{align}
+%
+wobei $C$ die \textit{Kapazität} des Kondensators beschreibt. Die Kapazität hängt von der Geometrie des Kondensators und vom Dielektrikum ab. Mit der Permittivität $\varepsilon = \varepsilon_r\cdot\varepsilon_0$ ergibt sich der folgende Zusammenhang:
+%
+\begin{align}
+	C = \varepsilon_r \varepsilon_0 \frac{A}{d} \text{.}
+\end{align}
+%
+($d$ : Abstand der Kondensatorplatten, $A$ : Fläche des Plattenkondensators)\\
+%
+Die Arbeit, welche bei anlegen einer Spannung $U$, auf eine infinitesimale Ladung $\text{d}q$ geleistet wird, kann mithilfe der Formel
+%
+\begin{align}
+	\text{d}W = \text{d}q\frac{Q}{C}
+\end{align}
+%
+errechnet werden. Für die Gesamtenergie, die das System erhält, gilt also:
+%
+\begin{align}
+	W = \frac{1}{C} \int\limits_0^Q Q' \text{d}Q' = \frac{Q^2}{2C} = \frac{1}{2}CU^2 = \frac{\varepsilon_0\varepsilon_rAU^2}{2d} 
+\end{align}
+%
+Dadurch gilt für die Kraft, die zwischen den Platten wirkt
+%
+\begin{align}
+	F = -\nabla W = - \frac{\text{d}}{\text{d}d} \left(\frac{\varepsilon_0\varepsilon_rAU^2}{2d}\right) = \frac{\varepsilon_0\varepsilon_rAU^2}{2d^2} \text{.}
+\end{align}
+%
