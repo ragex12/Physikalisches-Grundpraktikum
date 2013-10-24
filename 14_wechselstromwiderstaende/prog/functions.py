@@ -47,3 +47,13 @@ def convert(data, sigma_data):
 	else:
 		s = a+'.'+b[:zeroing]+'('+str(int(str_sigma_data[zeroing+1])+1)+')'
 	return s
+
+#looking for P(x_0,y_0) closest to zero
+def close2zero(x,y):
+	y_0 = min(abs(y))
+	x_0 = []
+	for i in range(0,len(y)):
+		if(y[i]==y_0):
+			x_0.append(x[i])
+	return [x_0,y_0]
+
