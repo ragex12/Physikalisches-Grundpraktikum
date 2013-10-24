@@ -11,8 +11,7 @@ Für die Messung zu verschiedenen Zeiten $t_1$, $t_2$ gilt:
 \end{align}
 Diese Formel ist nur bei hohen Widerständen genau, da der Kondensator sich sonst zu schnell entläd und man keine genauen Ladungswiderstände messen kann.
 \subsection{Ladungsmessung}
-Zur Ladungsmessung verwenden wir einen analogen Stromintegrator.
-%// hier fehlt noch was //
+Zur Ladungsmessung verwenden wir einen Stromintegrator
 \subsection{$R$-$L$- und $R$-$L$-$C$-Parallelschwingkreis}
 %\begin{minipage}{5cm}
 %\includegraphics{RLC-Schwingkreis.png}
@@ -22,3 +21,10 @@ Beim $ R $-$ L $-$ C $-Parallelschwingkreis handelt es sich um eine Parallelscha
 \ddot{Q} + 2 \beta \dot{Q} + \omega_{0}^2 Q = 0 \text{,}
 \end{align}
 wobei $ \beta : = \frac{R}{2L} $ und $ \omega_{0} : = \sqrt{ \frac{1}{LC}} $ ist.
+
+\subsection{Bestimmung der elektrischen Feldkonstante}
+Mithilfe des Kirchhoffschen Gesetzes ergibt sich für die Kapazität $C$ des Plattenkondensators (Plattenabstand $d$, -radius $r$, -anzahl $n$)
+\begin{align}
+C&=\varepsilon_0\varepsilon_r\*(n-1)\*\left(\frac{\pi r^2}{d}+r\*\left(\ln{\left(\frac{16\pi r}{d}\right)}-1\right)\right)
+\end{align}
+Kennt man nun die Kapazität $C$ des Kondensators, lässt sich die elektrische Feldkonstante $\varepsilon_0$

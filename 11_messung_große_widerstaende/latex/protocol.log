@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.22)  22 OCT 2013 19:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.22)  24 OCT 2013 15:39
 entering extended mode
 **protocol.tex
-(C:\Users\Daniel\Desktop\Messung1\store\latex\protocol.tex
+
+(C:\Users\Daniel\Desktop\Protokolle\11_messung_große_widerstaende\latex\protoc
+ol.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -1700,7 +1702,9 @@ Package biblatex Warning: hyperref package option 'plainpages' enabled.
 (biblatex)                This may cause problems with hyperlinked back
 (biblatex)                references. 'plainpages=false' is recommended.
 
-(C:\Users\Daniel\Desktop\Messung1\store\latex\protocol.aux)
+
+(C:\Users\Daniel\Desktop\Protokolle\11_messung_große_widerstaende\latex\protoc
+ol.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
@@ -1715,8 +1719,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 68.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 68.
@@ -1772,11 +1775,12 @@ LaTeX Info: Redefining \ref on input line 68.
 LaTeX Info: Redefining \pageref on input line 68.
 LaTeX Info: Redefining \nameref on input line 68.
 
-(C:\Users\Daniel\Desktop\Messung1\store\latex\protocol.out)
-(C:\Users\Daniel\Desktop\Messung1\store\latex\protocol.out)
+(C:\Users\Daniel\Desktop\Protokolle\11_messung_große_widerstaende\latex\protoc
+ol.out)
+(C:\Users\Daniel\Desktop\Protokolle\11_messung_große_widerstaende\latex\protoc
+ol.out)
 \@outlinefile=\write5
-
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 \c__siunitx_mathsf_int=\count388
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 68.
 
@@ -1829,7 +1833,8 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 68.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-(C:\Users\Daniel\Desktop\Messung1\store\latex\title.tex
+(C:\Users\Daniel\Desktop\Protokolle\11_messung_große_widerstaende\latex\title.
+tex
 Underfull \hbox (badness 10000) in paragraph at lines 28--33
 
  []
@@ -1867,10 +1872,12 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 74.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-(C:\Users\Daniel\Desktop\Messung1\store\latex\protocol.toc)
+(C:\Users\Daniel\Desktop\Protokolle\11_messung_große_widerstaende\latex\protoc
+ol.toc)
 \tf@toc=\write6
  [2]
-(C:\Users\Daniel\Desktop\Messung1\store\latex\theory.tex
+(C:\Users\Daniel\Desktop\Protokolle\11_messung_große_widerstaende\latex\theory
+.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 16.
 
@@ -1921,7 +1928,9 @@ LaTeX Warning: Empty bibliography on input line 90.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
 [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
- (C:\Users\Daniel\Desktop\Messung1\store\latex\protocol.aux)
+
+(C:\Users\Daniel\Desktop\Protokolle\11_messung_große_widerstaende\latex\protoc
+ol.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
 Package rerunfilecheck Info: File `protocol.out' has not changed.
@@ -1930,7 +1939,7 @@ Package logreq Info: Writing requests to 'protocol.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  30130 strings out of 493921
- 571957 string characters out of 3144872
+ 572416 string characters out of 3144872
  955270 words of memory out of 3000000
  32871 multiletter control sequences out of 15000+200000
  65192 words of font info for 56 fonts, out of 3000000 for 9000
